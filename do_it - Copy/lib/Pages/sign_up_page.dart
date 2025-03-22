@@ -181,7 +181,7 @@ class _SignUpState extends State<SignUp> {
                           text: "Already have an account? ",
                         ),
                         TextSpan(
-                          text: "Sign Up",
+                          text: "Sign In",
                           style: const TextStyle(
                             color: Colors.blue,
                           ),
