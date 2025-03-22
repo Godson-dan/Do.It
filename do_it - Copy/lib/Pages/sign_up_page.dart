@@ -140,12 +140,7 @@ class _SignUpState extends State<SignUp> {
                     GestureDetector(
                       onTap: () {
                         if (formKey.currentState!.validate()) {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const LoginPage(),
-                            ),
-                          );
+                          Navigator.pop(context);
                         }
                       },
                       child: Container(
