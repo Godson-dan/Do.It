@@ -157,7 +157,7 @@ class _SignUpState extends State<SignUp> {
                         width: double.infinity,
                         height: 40,
                         child: const Text(
-                          "Sign In",
+                          "Sign Up",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16,
@@ -181,7 +181,7 @@ class _SignUpState extends State<SignUp> {
                           text: "Already have an account? ",
                         ),
                         TextSpan(
-                          text: "Sign Up",
+                          text: "LogIn",
                           style: const TextStyle(
                             color: Colors.blue,
                           ),
